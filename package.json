@@ -1,0 +1,23 @@
+{
+  "name": "week10_dec10th_homework",
+  "version": "1.0.0",
+  "description": "profile generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonSintaro/Week10_Dec10th_Homework.git"
+  },
+  "author": "Jeffrey Arriaga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DonSintaro/Week10_Dec10th_Homework/issues"
+  },
+  "homepage": "https://github.com/DonSintaro/Week10_Dec10th_Homework#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "inquirer": "^7.0.0"
+  }
+}
