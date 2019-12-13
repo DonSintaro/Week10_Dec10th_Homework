@@ -371,7 +371,7 @@ profileMade = (x,y) => `
                           </div>
 
                           <div class="unblockThis">
-                            <h3>Number of GitHub stars: </h3><p> ${y.data[0].stargazers_count}</p></br></br>
+                            <h3>Number of GitHub stars: </h3><p> ${y.data.length}</p></br></br>
                             <h3>Number of Users following: </h3><p> ${x.data.following}</p></br></br>
                           </div>
                         </div>
