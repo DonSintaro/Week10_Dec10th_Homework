@@ -8,7 +8,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(216, 216, 216);
     min-height: 100%;
     position: relative;
     margin:0;
@@ -62,7 +62,7 @@ h1{
 }
 #myName{ 
     position:absolute;
-    background-color: #4aaaa5;
+    background-color: #aaaaaa;
     color: #ffffff;
     left: 0;
     bottom: 0;
@@ -104,7 +104,7 @@ h1{
     width:100%;
     border-bottom: 3px #dddddd solid;
     margin-bottom: 40px;
-    color:#4aaaa5;
+    color:#aaaaaa;
     margin-top:0;
 }
 
@@ -127,7 +127,7 @@ h1{
 
 .blockThis{
     border-radius: 15px;
-    background-color: beige;
+    background-color: rgb(238, 238, 238);
     display:inline-block;
     width: calc(100% - 20px);
     margin-bottom: 15px;
@@ -156,7 +156,7 @@ h1{
 }
 
 #footerTail{
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #aaaaaa;
     position:absolute;
     bottom:0;
     height: 45px;

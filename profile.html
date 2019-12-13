@@ -5,7 +5,195 @@
               <title>
                 DonSintaro Profile
               </title>
-              <link rel="stylesheet" type="text/css" href="./assets/style.css"/>
+              <style>
+              html{
+                height: 100%;
+                box-sizing: border-box;
+            }
+            body{
+                background-color: rgb(216, 216, 216);
+                min-height: 100%;
+                position: relative;
+                margin:0;
+                padding:0;
+                color: #777777;
+            }
+            
+            p{
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            
+            h1{
+                font-family: 'Georgia', Times, 'Times New Roman', serif;
+            }
+            
+            #headingArea{ 
+                position: fixed;
+                left: 0;
+                top: 0;
+                z-index: 10;
+                width:100%;
+                height: 150px;
+                margin-bottom: 0;
+                background-color: #ffffff;
+                border-bottom: 3px solid;
+                border-color: #cccccc;
+            }
+            
+            .links {
+                display: inline-block;
+                margin-left: 10px;
+            
+            }
+            .links:visited{
+                color:#777777;
+                text-decoration: none;
+            
+            }
+            
+            .links:link {
+                text-decoration: none;
+                color:#777777;
+            }
+            
+            .portLinks:visited{
+                color:#ffffff;
+            }
+            
+            .portLinks:link{
+                color:#ffffff;
+            }
+            #myName{ 
+                position:absolute;
+                background-color: #aaaaaa;
+                color: #ffffff;
+                left: 0;
+                bottom: 0;
+            
+                margin-left: calc(50% - 345px);
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top:15px;
+                padding-bottom: 15px;
+            }
+            #linksHead{
+                position:absolute;
+                color:grey;
+                right:0;
+                bottom: 0;  
+                margin-bottom: 30px;
+                margin-right: calc(50% - 345px);
+            }
+            #headArea{
+                height:165px;
+                width: 100%;
+                margin-bottom: 25px;
+            }
+            /*-------------content------------------*/
+            #content{
+            
+                
+            
+                padding-right: 15px;
+                padding-left: 15px;  
+                padding-top: 15px;
+                padding-bottom: 15px;
+                margin-right: calc(50% - 345px);
+                margin-left: calc(50% - 345px);
+                background-color: #ffffff; 
+            }
+            #contentHead{
+                height: 60px;
+                width:100%;
+                border-bottom: 3px #dddddd solid;
+                margin-bottom: 40px;
+                color:#aaaaaa;
+                margin-top:0;
+            }
+            
+            /*-----------index------------*/
+            #profilePic{
+                border-radius: 15px;
+                width: 200px; 
+                object-fit: contain;
+                margin-right: 15px;
+                float:left;
+            }
+            #pAbout{
+                display:block;
+                line-height: 2rem;
+            }
+            #h3About{
+                display:block;
+            
+            }
+            
+            .blockThis{
+                border-radius: 15px;
+                background-color: rgb(238, 238, 238);
+                display:inline-block;
+                width: calc(100% - 20px);
+                margin-bottom: 15px;
+                padding: 10px;
+            }
+            .blockThis h3{
+                
+                display:inline-block;
+                margin-right:15px;
+            }
+            .blockThis p{
+                display:inline-block;
+            }
+            .unblockThis{
+                display: inline-block;
+                width: calc(50% - 2px);
+                text-align:left;
+            }
+            .unblockThis:nth-child(2){
+                text-align:right;
+
+            }
+            /*--------------footer-----------------*/
+            
+            #footerArea{
+                height:90px;
+                width:100%; 
+            }
+            
+            #footerTail{
+                border-top: 8px solid #aaaaaa;
+                position:absolute;
+                bottom:0;
+                height: 45px;
+                width:100%; 
+                padding-right: 0;
+                padding-left: 0;
+                background-color: #666666;
+                text-align: center;
+                color: white;
+            }
+              
+              </style>
+
+
+              <style>
+              
+
+              
+ 
+#footerTail{border-top: 8px solid #4a77aa;}
+.blockThis{background-color: rgb(255, 241, 244);}
+#contentHead{color:#4a77aa;}
+#myName{background-color: #4a77aa;}
+body{background-color: rgb(191, 191, 211);}
+
+
+
+
+              </style>
+
+
+
           </head>
             <body>
                 <section id="headingArea">
@@ -14,8 +202,8 @@
                     </div>
                     <div id="linksHead">
                         <a class="links" href="https://github.com/DonSintaro"><p>Github</p></a>
-                        
-                        
+                        <a class="links" href="https://www.google.com/maps/place/Austin,TX"><p>Austin,TX</p></a>
+                        <a class="links" href="https://www.facebook.com/jeffrey.arriaga.1"><p>Blog</p></a>
                     </div>    
                 </section>        
                 <div id="headArea"></div>
@@ -35,13 +223,17 @@
                         </div>
 
                         <div class="blockThis">
+                          <div class="unblockThis">
                             <h3>Number of Public repositories: </h3><p> 18</p></br></br>
                             <h3>Number of Followers: </h3><p> 0</p></br></br>
+                          </div>
+
+                          <div class="unblockThis">
                             <h3>Number of GitHub stars: </h3><p> 1</p></br></br>
                             <h3>Number of Users following: </h3><p> 0</p></br></br>
+                          </div>
                         </div>
-
-                        
+ 
                     </div>
                 </section>
                 <div id="footerArea"></div>
